@@ -1,0 +1,34 @@
+[package]
+name = "funksteckdose"
+version = "0.1.0"
+authors = ["Felix Obenhuber <felix@obenhuber.de>"]
+description = "Utility for controlling wireless remote sockets via 433MHz radio transmitter"
+edition = "2018"
+readme = "README.md"
+keywords = ["433", "rc-switch", "raspberry", "pi", "wiringpi"]
+documentation = "https://docs.rs/funksteckdose"
+homepage = "https://github.com/flxo/funksteckdose"
+repository = "https://github.com/flxo/funksteckdose"
+categories = ["command-line-utilities", "command-line-interface", "embedded"]
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "https://github.com/flxo/funksteckdose", branch = "master" }
+
+[lib]
+name = "funksteckdose"
+path = "src/lib.rs"
+
+[[bin]]
+name = "funksteckdose"
+path = "src/main.rs"
+doc = false 
+
+[dependencies]
+failure = "0.1.5"
+log = "0.4.6"
+structopt = "0.2.16"
+wiringpi = { version = "0.2.4", optional = true }
+
+[features]
+default = []
