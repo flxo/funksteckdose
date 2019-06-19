@@ -1,6 +1,6 @@
 [package]
 name = "funksteckdose"
-version = "0.1.0"
+version = "0.1.1-alpha0"
 authors = ["Felix Obenhuber <felix@obenhuber.de>"]
 description = "Utility for controlling wireless remote sockets via 433MHz radio transmitter"
 edition = "2018"

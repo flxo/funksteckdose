@@ -95,7 +95,7 @@ dependencies = [
 
 [[package]]
 name = "funksteckdose"
-version = "0.1.0"
+version = "0.1.1-alpha0"
 dependencies = [
  "failure 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "log 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
