@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/flxo/funksteckdose.svg)](https://travis-ci.org/flxo/funksteckdose)
-[![crates.io](https://img.shields.io/crates/f/funksteckdose.svg)](https://crates.io/crates/funksteckdose)
+[![crates.io](https://img.shields.io/crates/v/funksteckdose.svg)](https://crates.io/crates/funksteckdose)
+[![crates.io](https://img.shields.io/crates/l/funksteckdose.svg)](https://crates.io/crates/funksteckdose)
 
 # Funksteckdose
 
