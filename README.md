@@ -17,3 +17,11 @@ fn main() {
     d.send("10001", &Device::A, &State::On).expect("Failed to send");
 }
 ```
+
+Most probably you want to build this for `arm-unknown-linux-gnueabihf` e.g. `Raspberry Pi`:
+
+```
+cargo build --target arm-unknown-linux-gnueabihf --features wiringpi
+```
+
+Check `.cargo/config` for a proper linker setting.
