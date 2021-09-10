@@ -353,7 +353,7 @@ impl Protocol for Protocol4 {
     }
 }
 
-/// Protocol 4
+/// Protocol 5
 pub struct Protocol5;
 
 impl Protocol for Protocol5 {
